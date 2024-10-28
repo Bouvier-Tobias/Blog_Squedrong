@@ -10,3 +10,36 @@ header {
     display: flex;
     gap: 50px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#computer {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-texte {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#illustration {
+    width: 45%;
+}
+
+#about {
+    width: 75%;
+}
