@@ -47,10 +47,16 @@ h1 {
     margin-left: 25%;
 }
 
-h2 {
+#sous-titre {
     font-family: "Montserrat", serif;
     margin-left: 25%;
     color: rgb(3, 3, 133);
+}
+
+#author {
+    color: #e1466f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
 }
 
 h3 {
@@ -69,8 +75,26 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    margin-right: 5px;
+    margin-top: 3px;
 }
 
 #twitter,
@@ -80,10 +104,11 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 190px;
+    width: 180px;
     height: 50px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat" sans-serif;
     font-size: 0.8em;
+    border: none;
 }
 
 #twitter {
@@ -104,6 +129,7 @@ footer {
 
 #about {
     width: 75%;
+    margin-right: 50px;
 }
 
 #about p {
@@ -111,5 +137,5 @@ footer {
 }
 
 #author {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat" serif;
 }
