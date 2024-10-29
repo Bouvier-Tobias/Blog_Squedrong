@@ -26,6 +26,12 @@ a {
     justify-content: center;
 }
 
+#blog-titre {
+    font-family: "Abril-Fatface";
+    color: #e1466f;
+    margin-left: 25%;
+}
+
 .blog-texte {
     margin-left: 25%;
     margin-right: 25%;
