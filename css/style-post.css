@@ -15,9 +15,19 @@ header {
 }
 
 a {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    color: grey;
     text-decoration: none;
-    color: black;
+    transition: 300ms ease-in;
+
 }
+
+
+a:hover {
+    color: #39006e;
+}
+
 
 #computer {
     margin-left: 25%;
@@ -28,22 +38,23 @@ a {
 
 h1 {
     color: #e1466f;
+    font-family: "Abril Fatface", serif;
 }
 
 #blog-titre {
-    font-family: "Abril-Fatface";
+
 
     margin-left: 25%;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
     margin-left: 25%;
     color: rgb(3, 3, 133);
 }
 
 h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
     margin-left: 25%;
     color: rgb(3, 3, 133);
 }
@@ -71,7 +82,7 @@ footer {
 }
 
 #about p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
 }
 
 #author {
