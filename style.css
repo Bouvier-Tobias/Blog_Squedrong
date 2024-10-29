@@ -38,12 +38,10 @@ a {
     text-decoration: none;
     font-style: normal;
     color: grey;
-    transition: 300ms ease-out;
+    border-style: hidden;
+    transition: 300ms ease-in;
 }
 
-links-head:active {
-    color: #39006e;
-}
 
 .links-head:hover {
     color: #39006e;
@@ -164,6 +162,10 @@ i {
     width: 40%;
     margin-right: 20px;
     margin-bottom: 30PX;
+}
+
+.date {
+    font-size: 0.8em;
 }
 
 h3 {
