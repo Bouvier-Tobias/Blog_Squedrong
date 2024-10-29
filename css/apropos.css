@@ -1,0 +1,130 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: white;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+    width: 100%;
+}
+
+.about-container {
+    margin: 0%;
+    padding: 20px;
+    background-color: white;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: white;
+}
+
+h1 {
+    color: #ab47bc;
+    font-family: 'Abril Fatface', serif;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.subtitle {
+    color: #4a148c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 1em;
+    line-height: 1.6;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.social-btn {
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    min-width: 80px;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.linkedin {
+    background-color: #0077B5;
+}
+
+.medium {
+    background-color: black;
+}
+
+.illustration {
+    display: flex;
+    align-items: center;
+}
+
+.illustration-img {
+    width: 140px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.bas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
